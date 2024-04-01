@@ -1,0 +1,21 @@
+.header {
+  min-height: 17em;
+  background-image: url('../img/pizza-header.jpeg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: wheat;
+  position: relative;
+  isolation: isolate;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  background: black;
+  inset: 0;
+  z-index: -1;
+  opacity: .4;
+
+}

@@ -1,0 +1,39 @@
+.brand-text {
+  color: #fff;
+}
+
+.nav-bar {
+  position: relative;
+  isolation: isolate;
+  transition: background-color 0.5s ease; 
+  color: wheat;
+  letter-spacing: 2px;
+}
+
+.nav-bar::after {
+  background-color: black;
+  opacity: 0.3;
+  position: absolute;
+  content: '';
+  inset: 0;
+  z-index: -1;
+}
+
+.nav-bar-scroll {
+  background-color: black;
+  letter-spacing: 2px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: wheat;
+  filter: drop-shadow(0 0 0.5rem rgb(255, 242, 218));
+  font-weight: 700;
+}
+
+.nav-bar-scroll a {
+  text-decoration: none;;
+  text-transform: uppercase;
+  color: #D11E36;
+}

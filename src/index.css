@@ -1,0 +1,23 @@
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url('/src/assets//img/pizza-header.jpeg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  color: brown;
+  text-transform: capitalize;
+}
+
+.btn-add {
+  filter: drop-shadow(0 0 0.3rem rgb(241, 85, 116));
+}
+
+.btn-det {
+  background-color: rgb(96, 155, 86);
+  filter: drop-shadow(0 0 0.3rem rgb(43, 134, 27))
+}
